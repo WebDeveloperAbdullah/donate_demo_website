@@ -1,0 +1,490 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/* header_banner-start-here */
+.header_banner{
+    background-image:linear-gradient(180deg, #3a343449,rgb(31, 30, 30)), url('../images/donation1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.banner_site{
+    padding: 250px 20px;
+}
+.section_title{
+    color:#fff;
+    font-size: 50px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.section_para{
+    color: #fff;
+    font-size: 22px;
+    padding: 10px 200px;
+    
+}
+
+.pry_button{
+    padding: 10px 15px;
+    border-radius: 7px;
+    border: none;
+    background-color: rgb(221, 78, 78);
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+/* header_banner-end-here */
+
+
+/* donate_section-start-hear- */
+.donate_section{
+    text-align: center;
+}
+.donate_titel{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 40px;
+    padding: 20px;
+    
+}
+.donate_pra{
+    text-align: center;
+    padding: 15px 150px;
+    margin: 20px;
+}
+.donate_amount button{
+
+    border: none;
+    text-decoration: none;
+    padding: 25px 20px;
+    margin: 30px 10px;
+    font-size: 25px;
+    background-color: #fff;
+    color: gray;
+    border-radius:10px ;
+}
+.donate_amount button:hover{
+    border: 1.5px solid red;
+    background-color:#FFF8F3;
+    color: #000;
+}
+
+.amount_input input{
+    width: 80%;
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+.amount_input{
+    padding-bottom: 30px;
+}
+
+
+/* donate_section-end-hear- */
+
+/* donate_plan-section-start-hear */
+#donate_plan{
+ 
+    padding: 50px 10px;
+}
+#blog_icon{
+    width: 40px;
+    height: 40px;
+   
+}
+.food_family{
+    padding: 20px;
+    border-radius: 7px;
+    margin-bottom: 30px;
+    background-color: rgb(202, 250, 234);
+}
+.shelter_family{
+    padding: 20px;
+    border-radius: 7px;
+    background-color: #FFF7F3;
+    margin-bottom: 30px;
+}
+.education_family{
+    padding: 20px;
+    border-radius: 7px;
+    background-color:#FFF8F3;
+    margin-bottom: 30px;
+}
+.blog_title{
+    text-transform: capitalize;
+    color: #000;
+    font-size: 23px;
+    padding: 20px 0px;
+}
+.blog_pra{
+    text-align: justify;
+    color:gray;
+    font-size: 15px;
+}
+/* donate_plan-section-end-hear */
+/* your_donation_section-start-hear */
+#your_donation_section{
+
+}
+.your_donation{
+    padding: 50px;
+}
+.donation_img{
+    padding: 50px;
+}
+.donation_img img{
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+.your_title{
+    font-size: 30px;
+    padding: 20px 0px;
+    text-transform: capitalize;
+
+}
+.your_blog_pra{
+    text-align: justify;
+   padding-bottom: 20px;
+   font-size: 17px;
+
+
+}
+/* your_donation_section-end-hear */
+
+/* update_section-start-hera */
+#update_section{
+    
+    padding-bottom: 80px;
+}
+.input_section{
+    text-align: center;
+    position: relative;
+    background-color: #FFF7F3;
+    padding: 50px 100px;
+}
+.input_text{
+    border: none;
+    padding: 10px 5px;
+    border-radius:7px 0px 0px 7px;
+    background-color: rgb(207, 196, 196);
+    width: 70%;
+   
+}
+.input_button{
+    width: 30%;
+    position: absolute;
+    padding: 10px 5px;
+    border-radius:0px 7px 7px 0px;
+    border: none;
+ 
+    background-color: rgb(221, 78, 78);
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 500;
+
+}
+/* update_section-end-hera */
+/* footer_area */
+#footer_area{
+    background-color: #000;
+    text-align: center;
+
+}
+.footer_copy h1{
+    color:  rgb(221, 78, 78);
+    font-size: 22px;
+    font-style: italic;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.footer_copy h2{
+    color:  rgb(221, 78, 78);
+    font-size: 12px;
+    font-style: italic;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.footer_copy{
+    padding: 25px 0px;
+}
+/* footer_area */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .section_para{
+        font-size: 12px;
+        padding: 10px 10px;
+        text-align: justify;
+    }
+    .section_title{
+        font-size: 25px;
+    }
+    .banner_site{
+        padding: 50px 10px;
+    }
+    .donate_pra{
+        padding: 15px 10px;
+        margin: 20px;
+        text-align: justify;
+    }
+
+    .your_title{
+        padding: 10px 0px;
+        text-transform: capitalize;
+        font-size: 20px;
+    
+    }
+    .your_blog_pra{
+        text-align: justify;
+       padding-bottom: 10px;
+       font-size: 15px;
+    
+    
+    }
+    #donate_plan{
+ 
+        padding: 5px 10px;
+    }
+    .your_donation{
+        padding: 50px 15px;
+    }
+    .donation_img{
+        padding: 50px 15px;
+    }
+    .donation_img img{
+        width: 100%;
+        height: auto;
+        border-radius: 12px;
+    }
+    .input_section{
+        position: relative;
+        background-color: #FFF7F3;
+        padding: 50px 5px;
+        text-align: left;
+    }
+    
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .banner_site{
+        padding: 100px 10px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .section_para{
+        font-size: 16px;
+        padding: 10px 10px;
+        text-align: center;
+    }
+    .section_title{
+        font-size: 32px;
+    }
+    .donate_pra{
+        padding: 15px 10px;
+        margin: 20px;
+        text-align: justify;
+    }
+    
+    .food_family{
+        padding: 20px;
+        border-radius: 7px;
+        margin-bottom: 30px;
+        background-color: rgb(202, 250, 234);
+    }
+    .shelter_family{
+        padding: 20px 10px;
+        border-radius: 7px;
+        background-color: #FFF7F3;
+        margin-bottom: 30px;
+    }
+    .education_family{
+        padding: 20px 10px;
+        border-radius: 7px;
+        background-color:#FFF8F3;
+        margin-bottom: 30px;
+    }
+    .blog_title{
+        text-transform: capitalize;
+        color: #000;
+        font-size: 18px;
+        padding: 10px 0px;
+    }
+    .blog_pra{
+        text-align: justify;
+        color:gray;
+        font-size: 13px;
+    }
+    .your_donation{
+        padding: 50px 10px;
+    }
+    .donation_img{
+        padding: 50px 10px;
+    }
+    .donation_img img{
+        width: 100%;
+        height: auto;
+        border-radius: 12px;
+    }
+    .your_title{
+        font-size: 18px;
+        padding: 5px 0px;
+        text-transform: capitalize;
+    
+    }
+    .your_blog_pra{
+        text-align: justify;
+       padding-bottom: 5px;
+       font-size: 12px;
+    
+    
+    }
+    .input_section{
+        position: relative;
+        background-color: #FFF7F3;
+        padding: 50px 25px;
+        text-align: left;
+    }
+   
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .section_para{
+        font-size: 16px;
+        padding: 10px 100px;
+        text-align: center;
+     
+    }
+    .section_title{
+        font-size: 42px;
+    }
+    .donate_pra{
+        padding: 15px 50px;
+        margin: 20px;
+       text-align: center;
+    }
+    .your_donation{
+        padding: 50px;
+    }
+    .donation_img{
+        padding: 50px;
+    }
+    .donation_img img{
+        width: 100%;
+        height: auto;
+        border-radius: 12px;
+    }
+    .your_title{
+        font-size: 25px;
+        padding: 5px 0px;
+        text-transform: capitalize;
+    
+    }
+    .your_blog_pra{
+        text-align: justify;
+       padding-bottom: 5px;
+       font-size: 15px;
+    
+    
+    }
+    .input_section{
+        text-align: left;
+        position: relative;
+        background-color: #FFF7F3;
+        padding: 50px 100px;
+    }
+    .input_text{
+        border: none;
+        padding: 10px 5px;
+        border-radius:7px 0px 0px 7px;
+        background-color: rgb(207, 196, 196);
+        width: 70%;
+       
+    }
+    .input_button{
+        width: 30%;
+        position: absolute;
+        padding: 10px 5px;
+        border-radius:0px 7px 7px 0px;
+        border: none;
+     
+        background-color: rgb(221, 78, 78);
+        color: #fff;
+        text-transform: capitalize;
+        font-weight: 500;
+    
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .section_para{
+        font-size: 16px;
+        padding: 10px 250px;
+        text-align: center;
+      
+    }
+    .section_title{
+        font-size: 50px;
+    }
+    .your_donation{
+        padding: 50px;
+    }
+    .donation_img{
+        padding: 50px;
+    }
+    .donation_img img{
+        width: 100%;
+        height: auto;
+        border-radius: 12px;
+    }
+    .your_title{
+        font-size: 30px;
+        padding: 20px 0px;
+        text-transform: capitalize;
+    
+    }
+    .your_blog_pra{
+        text-align: justify;
+       padding-bottom: 20px;
+       font-size: 17px;
+    
+    
+    }
+    .input_section{
+        text-align: left;
+        position: relative;
+        background-color: #FFF7F3;
+        padding: 50px 100px;
+    }
+    .input_text{
+        border: none;
+        padding: 10px 5px;
+        border-radius:7px 0px 0px 7px;
+        background-color: rgb(207, 196, 196);
+        width: 70%;
+       
+    }
+    .input_button{
+        width: 30%;
+        position: absolute;
+        padding: 10px 5px;
+        border-radius:0px 7px 7px 0px;
+        border: none;
+     
+        background-color: rgb(221, 78, 78);
+        color: #fff;
+        text-transform: capitalize;
+        font-weight: 500;
+    
+    }
+}
+
